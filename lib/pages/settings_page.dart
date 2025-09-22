@@ -1,11 +1,12 @@
+
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce_app1/pages/change_password_page.dart';
 import 'package:flutter_ecommerce_app1/pages/edit_profile_page.dart';
 import 'package:flutter_ecommerce_app1/pages/manage_email_page.dart';
 import 'package:flutter_ecommerce_app1/pages/shop_page.dart';
-// ignore: unused_import
 import 'package:flutter_ecommerce_app1/themes/light_mode.dart';
-// ignore: unused_import
 import 'package:flutter_ecommerce_app1/themes/dark_mode.dart';
 import 'package:flutter_ecommerce_app1/pages/cart_page.dart';
 import 'package:provider/provider.dart';
@@ -160,6 +161,7 @@ const SizedBox(height: 20),
                   },
                 ),
                 const Divider(),
+                
                 ListTile(
                   leading: const Icon(Icons.text_fields),
                   title: const Text("Font Size"),

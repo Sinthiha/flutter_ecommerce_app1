@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 
 class EditProfilePage extends StatefulWidget {
@@ -13,7 +15,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
 
   @override
   Widget build(BuildContext context) {
-    // Use the same colors as ProfilePage / CartPage
+    
     final primaryColor = const Color.fromARGB(255, 4, 19, 36); // Background
     final secondaryColor = const Color.fromARGB(255, 182, 113, 161).withOpacity(0.9); // AppBar & buttons
     final textColor = Colors.white;

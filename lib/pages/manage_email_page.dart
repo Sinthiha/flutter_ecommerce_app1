@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 
 class ManageEmailPage extends StatefulWidget {
@@ -24,7 +26,7 @@ class _ManageEmailPageState extends State<ManageEmailPage> {
 
   @override
   Widget build(BuildContext context) {
-    // Matching ProfilePage / CartPage colors
+    
     final primaryColor = const Color.fromARGB(255, 4, 19, 36); // Background
     final secondaryColor = const Color.fromARGB(255, 182, 113, 161).withOpacity(0.9); // AppBar & buttons
     final textColor = Colors.white;
